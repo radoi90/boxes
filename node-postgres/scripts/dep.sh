@@ -14,4 +14,5 @@ apt-get -yg install git-all
 
 curl -L http://git.io/n-install | bash
 
-apt-get -yg install postgresql-9.4
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update && sudo apt-get install postgresql-9.4
