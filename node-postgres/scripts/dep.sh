@@ -2,14 +2,16 @@
 #
 # Setup the the box. This runs as root
 
-apt-get -y update
+apt-get -yg update
 
-apt-get -y install curl
+apt-get -yg upgrade
+
+apt-get -yg install curl
 
 # You can install anything you need here.
 
-apt-get -y install git-all
+apt-get -yg install git-all
 
 curl -L http://git.io/n-install | bash
 
-apt-get -y install postgresql-9.4
+apt-get -yg install postgresql-9.4
