@@ -8,8 +8,8 @@ apt-get -y install curl
 
 # You can install anything you need here.
 
-apt-get install git-all
+apt-get -y install git-all
 
 curl -L http://git.io/n-install | bash
 
-apt-get install postgresql-9.4
+apt-get -y install postgresql-9.4
