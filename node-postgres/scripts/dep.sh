@@ -11,5 +11,3 @@ apt-get -y install curl
 # You can install anything you need here.
 
 apt-get -y install git-all
-
-curl -L http://git.io/n-install | bash
